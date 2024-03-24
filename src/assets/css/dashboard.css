@@ -1,0 +1,123 @@
+.Container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  /* margin-top: 50px !important; */
+}
+.one{
+  align-items: center;
+}
+.one{
+  text-align: center;
+}
+
+.weather-container{
+  background-image: url("../img/weather.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Grid-container {
+ width: 80% !important;
+  margin: 20px 0 !important;
+}
+
+.Grid-item {
+  margin-bottom: 10px !important;
+}
+.button {
+  width: 100% !important;
+}
+.TextField {
+  background-color: #f4f4f4 !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  width: 100% !important;
+}
+
+.button {
+  background-color: #4CAF50 !important;
+  /* background-color: transparent !important; */
+  border: 1px solid #fff !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease 0s !important;
+  cursor: pointer !important;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.button:hover {
+  background-color: #3285ea !important;
+  margin-left: 10px !important;
+  margin: 0 !important;
+}
+
+.Modal {
+  background-color: white !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+  width: 70% !important;
+  margin: 50px 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.Typography {
+  margin: 10px 0 !important;
+}
+
+.WeatherTable {
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+.WeatherTable td {
+  border: 1px solid #dddddd !important;
+  padding: 8px !important;
+  text-align: left !important;
+}
+
+.WeatherTable tr:nth-child(even) {
+  background-color: #f2f2f2 !important;
+}
+
+.Label {
+  font-weight: bold !important;
+}
+
+/* You can add more custom styles as needed */
+.loader {
+  border: 8px solid #f3f3f3 !important; 
+  border-top: 8px solid #3498db !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  animation: spin 1s linear infinite !important;
+  margin: 20px auto !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg) !important; }
+  100% { transform: rotate(360deg) !important; }
+}
